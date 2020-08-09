@@ -4,9 +4,10 @@ Administration can use the software to allocate sports equipment to students, fo
 Also all the issuing and submitting processes will be done under the surveillance of the security worker for the better security of equipment, so a password with be required to complete any of the above two processes to complete, which will be available with the security worker
 
 Prerequisites
-A computer with Linux Operating system.
-An active internet connectivity.
-cmake, make and mysqlclient library (if not available follow instructions given below to install)
+1. A computer with Linux Operating system.
+2. An active internet connectivity.
+3. cmake, make and mysqlclient library (if not available follow instructions given below to install)
+
 Installing cmake
 use below given command to install cmake if not available
 
@@ -23,8 +24,8 @@ use below given command to install mysqlclient library
 sudo apt-get install libmysqlclient-dev
 
 Installing and running code
-cd code
-cmake CMakeLists.txt
-make
-./sem
+1. cd code
+2. cmake CMakeLists.txt
+3. make
+4. ./sem
 Note - minimum cmake version required is 3.1 , if below version is available than make changes in the CMakeLists.txt file accordingly. Note - if directory name code is changes to something else or location is changed after running than delete CMakeCache.txt file and follow the above steps to run it successfully.
